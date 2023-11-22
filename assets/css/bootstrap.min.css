@@ -1,0 +1,116 @@
+/* Setting background for the entire body */
+body {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,..."); /* SVG background pattern */
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the main container */
+.container {
+  border-radius: 3px;
+  margin: 8% auto;
+  color: white;
+  max-width: 350px;
+  padding: 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  box-shadow: 0 8px 32px 0 rgba(181, 24, 24, 0.37); /* Box shadow for a subtle lift effect */
+  backdrop-filter: blur(20px); /* Background blur for a frosted glass effect */
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Styling for heading */
+h1 {
+  color: #fafafa;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+/* Styling for input fields */
+input[type="email"],
+input[type="password"] {
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+/* Styling for buttons */
+.button,
+button {
+  background-color: #0095f6;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Button icon styling */
+.button-icon {
+  background-image: url("../logo.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #0077e6;
+}
+
+/* Styling for hyperlinks */
+a {
+  color: #0077e6;
+  text-decoration: none;
+}
+
+/* Styling for a blurred background */
+blur {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Styling for form input labels */
+.input-label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0095f6;
+  margin-bottom: 5px;
+}
+
+/* Styling for form input controls */
+.form-control {
+  background-color: #f8f8f8;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus styling for form input controls */
+.form-control:focus {
+  outline: none;
+  border-color: #0095f6;
+  box-shadow: 0 0 5px rgba(0, 149, 246, 0.3);
+}
